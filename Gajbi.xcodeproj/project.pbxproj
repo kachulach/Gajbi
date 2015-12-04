@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		55BE633E0EB1CE5B41EEB75E /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 53A595C238038F118FCCAC1F /* libPods.a */; };
 		B56CAB861C122A460023A9AA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B56CAB851C122A460023A9AA /* main.m */; };
 		B56CAB891C122A460023A9AA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B56CAB881C122A460023A9AA /* AppDelegate.m */; };
 		B56CAB8C1C122A460023A9AA /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B56CAB8B1C122A460023A9AA /* FirstViewController.m */; };
@@ -16,7 +17,6 @@
 		B56CAB971C122A460023A9AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B56CAB951C122A460023A9AA /* LaunchScreen.storyboard */; };
 		B56CABA21C122A470023A9AA /* GajbiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B56CABA11C122A470023A9AA /* GajbiTests.m */; };
 		B56CABAD1C122A470023A9AA /* GajbiUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B56CABAC1C122A470023A9AA /* GajbiUITests.m */; };
-		CDC60C97F7556FF4E576A061 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 03BD884BEADDE8B34F5DCCB0 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,9 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		03BD884BEADDE8B34F5DCCB0 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		1E8338035D2825E50CEAD9AB /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
-		768E584A966F800539F6121C /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		33764A51FACB5C6BC4172A94 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		53A595C238038F118FCCAC1F /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		B56CAB811C122A460023A9AA /* Gajbi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gajbi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B56CAB851C122A460023A9AA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B56CAB871C122A460023A9AA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -58,6 +57,7 @@
 		B56CABA81C122A470023A9AA /* GajbiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GajbiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B56CABAC1C122A470023A9AA /* GajbiUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GajbiUITests.m; sourceTree = "<group>"; };
 		B56CABAE1C122A470023A9AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F88532FE4A592F8896A1F079 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,7 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CDC60C97F7556FF4E576A061 /* libPods.a in Frameworks */,
+				55BE633E0EB1CE5B41EEB75E /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -89,8 +89,8 @@
 		2421CAEC02696FFA77778DD7 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				1E8338035D2825E50CEAD9AB /* Pods.debug.xcconfig */,
-				768E584A966F800539F6121C /* Pods.release.xcconfig */,
+				F88532FE4A592F8896A1F079 /* Pods.debug.xcconfig */,
+				33764A51FACB5C6BC4172A94 /* Pods.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -98,7 +98,7 @@
 		678035D6C5C0EF1A170980AE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				03BD884BEADDE8B34F5DCCB0 /* libPods.a */,
+				53A595C238038F118FCCAC1F /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -492,7 +492,7 @@
 		};
 		B56CABB21C122A470023A9AA /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1E8338035D2825E50CEAD9AB /* Pods.debug.xcconfig */;
+			baseConfigurationReference = F88532FE4A592F8896A1F079 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Gajbi/Info.plist;
@@ -505,7 +505,7 @@
 		};
 		B56CABB31C122A470023A9AA /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 768E584A966F800539F6121C /* Pods.release.xcconfig */;
+			baseConfigurationReference = 33764A51FACB5C6BC4172A94 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Gajbi/Info.plist;
