@@ -1,0 +1,527 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B56CAB861C122A460023A9AA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B56CAB851C122A460023A9AA /* main.m */; };
+		B56CAB891C122A460023A9AA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B56CAB881C122A460023A9AA /* AppDelegate.m */; };
+		B56CAB8C1C122A460023A9AA /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B56CAB8B1C122A460023A9AA /* FirstViewController.m */; };
+		B56CAB8F1C122A460023A9AA /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B56CAB8E1C122A460023A9AA /* SecondViewController.m */; };
+		B56CAB921C122A460023A9AA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B56CAB901C122A460023A9AA /* Main.storyboard */; };
+		B56CAB941C122A460023A9AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B56CAB931C122A460023A9AA /* Assets.xcassets */; };
+		B56CAB971C122A460023A9AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B56CAB951C122A460023A9AA /* LaunchScreen.storyboard */; };
+		B56CABA21C122A470023A9AA /* GajbiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B56CABA11C122A470023A9AA /* GajbiTests.m */; };
+		B56CABAD1C122A470023A9AA /* GajbiUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B56CABAC1C122A470023A9AA /* GajbiUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B56CAB9E1C122A470023A9AA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B56CAB791C122A460023A9AA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B56CAB801C122A460023A9AA;
+			remoteInfo = Gajbi;
+		};
+		B56CABA91C122A470023A9AA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B56CAB791C122A460023A9AA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B56CAB801C122A460023A9AA;
+			remoteInfo = Gajbi;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B56CAB811C122A460023A9AA /* Gajbi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gajbi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B56CAB851C122A460023A9AA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B56CAB871C122A460023A9AA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B56CAB881C122A460023A9AA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B56CAB8A1C122A460023A9AA /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		B56CAB8B1C122A460023A9AA /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		B56CAB8D1C122A460023A9AA /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		B56CAB8E1C122A460023A9AA /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		B56CAB911C122A460023A9AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B56CAB931C122A460023A9AA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B56CAB961C122A460023A9AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B56CAB981C122A460023A9AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B56CAB9D1C122A470023A9AA /* GajbiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GajbiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B56CABA11C122A470023A9AA /* GajbiTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GajbiTests.m; sourceTree = "<group>"; };
+		B56CABA31C122A470023A9AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B56CABA81C122A470023A9AA /* GajbiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GajbiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B56CABAC1C122A470023A9AA /* GajbiUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GajbiUITests.m; sourceTree = "<group>"; };
+		B56CABAE1C122A470023A9AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B56CAB7E1C122A460023A9AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B56CAB9A1C122A470023A9AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B56CABA51C122A470023A9AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B56CAB781C122A460023A9AA = {
+			isa = PBXGroup;
+			children = (
+				B56CAB831C122A460023A9AA /* Gajbi */,
+				B56CABA01C122A470023A9AA /* GajbiTests */,
+				B56CABAB1C122A470023A9AA /* GajbiUITests */,
+				B56CAB821C122A460023A9AA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B56CAB821C122A460023A9AA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B56CAB811C122A460023A9AA /* Gajbi.app */,
+				B56CAB9D1C122A470023A9AA /* GajbiTests.xctest */,
+				B56CABA81C122A470023A9AA /* GajbiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B56CAB831C122A460023A9AA /* Gajbi */ = {
+			isa = PBXGroup;
+			children = (
+				B56CAB871C122A460023A9AA /* AppDelegate.h */,
+				B56CAB881C122A460023A9AA /* AppDelegate.m */,
+				B56CAB8A1C122A460023A9AA /* FirstViewController.h */,
+				B56CAB8B1C122A460023A9AA /* FirstViewController.m */,
+				B56CAB8D1C122A460023A9AA /* SecondViewController.h */,
+				B56CAB8E1C122A460023A9AA /* SecondViewController.m */,
+				B56CAB901C122A460023A9AA /* Main.storyboard */,
+				B56CAB931C122A460023A9AA /* Assets.xcassets */,
+				B56CAB951C122A460023A9AA /* LaunchScreen.storyboard */,
+				B56CAB981C122A460023A9AA /* Info.plist */,
+				B56CAB841C122A460023A9AA /* Supporting Files */,
+			);
+			path = Gajbi;
+			sourceTree = "<group>";
+		};
+		B56CAB841C122A460023A9AA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B56CAB851C122A460023A9AA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B56CABA01C122A470023A9AA /* GajbiTests */ = {
+			isa = PBXGroup;
+			children = (
+				B56CABA11C122A470023A9AA /* GajbiTests.m */,
+				B56CABA31C122A470023A9AA /* Info.plist */,
+			);
+			path = GajbiTests;
+			sourceTree = "<group>";
+		};
+		B56CABAB1C122A470023A9AA /* GajbiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B56CABAC1C122A470023A9AA /* GajbiUITests.m */,
+				B56CABAE1C122A470023A9AA /* Info.plist */,
+			);
+			path = GajbiUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B56CAB801C122A460023A9AA /* Gajbi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B56CABB11C122A470023A9AA /* Build configuration list for PBXNativeTarget "Gajbi" */;
+			buildPhases = (
+				B56CAB7D1C122A460023A9AA /* Sources */,
+				B56CAB7E1C122A460023A9AA /* Frameworks */,
+				B56CAB7F1C122A460023A9AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Gajbi;
+			productName = Gajbi;
+			productReference = B56CAB811C122A460023A9AA /* Gajbi.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B56CAB9C1C122A470023A9AA /* GajbiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B56CABB41C122A470023A9AA /* Build configuration list for PBXNativeTarget "GajbiTests" */;
+			buildPhases = (
+				B56CAB991C122A470023A9AA /* Sources */,
+				B56CAB9A1C122A470023A9AA /* Frameworks */,
+				B56CAB9B1C122A470023A9AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B56CAB9F1C122A470023A9AA /* PBXTargetDependency */,
+			);
+			name = GajbiTests;
+			productName = GajbiTests;
+			productReference = B56CAB9D1C122A470023A9AA /* GajbiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B56CABA71C122A470023A9AA /* GajbiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B56CABB71C122A470023A9AA /* Build configuration list for PBXNativeTarget "GajbiUITests" */;
+			buildPhases = (
+				B56CABA41C122A470023A9AA /* Sources */,
+				B56CABA51C122A470023A9AA /* Frameworks */,
+				B56CABA61C122A470023A9AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B56CABAA1C122A470023A9AA /* PBXTargetDependency */,
+			);
+			name = GajbiUITests;
+			productName = GajbiUITests;
+			productReference = B56CABA81C122A470023A9AA /* GajbiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B56CAB791C122A460023A9AA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = Kachulach;
+				TargetAttributes = {
+					B56CAB801C122A460023A9AA = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					B56CAB9C1C122A470023A9AA = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = B56CAB801C122A460023A9AA;
+					};
+					B56CABA71C122A470023A9AA = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = B56CAB801C122A460023A9AA;
+					};
+				};
+			};
+			buildConfigurationList = B56CAB7C1C122A460023A9AA /* Build configuration list for PBXProject "Gajbi" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B56CAB781C122A460023A9AA;
+			productRefGroup = B56CAB821C122A460023A9AA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B56CAB801C122A460023A9AA /* Gajbi */,
+				B56CAB9C1C122A470023A9AA /* GajbiTests */,
+				B56CABA71C122A470023A9AA /* GajbiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B56CAB7F1C122A460023A9AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B56CAB971C122A460023A9AA /* LaunchScreen.storyboard in Resources */,
+				B56CAB941C122A460023A9AA /* Assets.xcassets in Resources */,
+				B56CAB921C122A460023A9AA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B56CAB9B1C122A470023A9AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B56CABA61C122A470023A9AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B56CAB7D1C122A460023A9AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B56CAB8F1C122A460023A9AA /* SecondViewController.m in Sources */,
+				B56CAB891C122A460023A9AA /* AppDelegate.m in Sources */,
+				B56CAB8C1C122A460023A9AA /* FirstViewController.m in Sources */,
+				B56CAB861C122A460023A9AA /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B56CAB991C122A470023A9AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B56CABA21C122A470023A9AA /* GajbiTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B56CABA41C122A470023A9AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B56CABAD1C122A470023A9AA /* GajbiUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B56CAB9F1C122A470023A9AA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B56CAB801C122A460023A9AA /* Gajbi */;
+			targetProxy = B56CAB9E1C122A470023A9AA /* PBXContainerItemProxy */;
+		};
+		B56CABAA1C122A470023A9AA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B56CAB801C122A460023A9AA /* Gajbi */;
+			targetProxy = B56CABA91C122A470023A9AA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B56CAB901C122A460023A9AA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B56CAB911C122A460023A9AA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B56CAB951C122A460023A9AA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B56CAB961C122A460023A9AA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B56CABAF1C122A470023A9AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B56CABB01C122A470023A9AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B56CABB21C122A470023A9AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Gajbi/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kachulach.Gajbi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B56CABB31C122A470023A9AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Gajbi/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kachulach.Gajbi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B56CABB51C122A470023A9AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GajbiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kachulach.GajbiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Gajbi.app/Gajbi";
+			};
+			name = Debug;
+		};
+		B56CABB61C122A470023A9AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GajbiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kachulach.GajbiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Gajbi.app/Gajbi";
+			};
+			name = Release;
+		};
+		B56CABB81C122A470023A9AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GajbiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kachulach.GajbiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Gajbi;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		B56CABB91C122A470023A9AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GajbiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kachulach.GajbiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Gajbi;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B56CAB7C1C122A460023A9AA /* Build configuration list for PBXProject "Gajbi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B56CABAF1C122A470023A9AA /* Debug */,
+				B56CABB01C122A470023A9AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B56CABB11C122A470023A9AA /* Build configuration list for PBXNativeTarget "Gajbi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B56CABB21C122A470023A9AA /* Debug */,
+				B56CABB31C122A470023A9AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B56CABB41C122A470023A9AA /* Build configuration list for PBXNativeTarget "GajbiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B56CABB51C122A470023A9AA /* Debug */,
+				B56CABB61C122A470023A9AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B56CABB71C122A470023A9AA /* Build configuration list for PBXNativeTarget "GajbiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B56CABB81C122A470023A9AA /* Debug */,
+				B56CABB91C122A470023A9AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B56CAB791C122A460023A9AA /* Project object */;
+}
