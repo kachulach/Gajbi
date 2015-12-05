@@ -17,6 +17,9 @@
 		B56CAB971C122A460023A9AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B56CAB951C122A460023A9AA /* LaunchScreen.storyboard */; };
 		B56CABA21C122A470023A9AA /* GajbiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B56CABA11C122A470023A9AA /* GajbiTests.m */; };
 		B56CABAD1C122A470023A9AA /* GajbiUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B56CABAC1C122A470023A9AA /* GajbiUITests.m */; };
+		B597862A1C12329D004C3938 /* LogInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B59786291C12329D004C3938 /* LogInViewController.m */; };
+		B597862D1C1234EB004C3938 /* SignUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B597862C1C1234EB004C3938 /* SignUpViewController.m */; };
+		B59786311C124DF9004C3938 /* NSString+Validation.m in Sources */ = {isa = PBXBuildFile; fileRef = B59786301C124DF9004C3938 /* NSString+Validation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +60,12 @@
 		B56CABA81C122A470023A9AA /* GajbiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GajbiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B56CABAC1C122A470023A9AA /* GajbiUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GajbiUITests.m; sourceTree = "<group>"; };
 		B56CABAE1C122A470023A9AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B59786281C12329D004C3938 /* LogInViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LogInViewController.h; sourceTree = "<group>"; };
+		B59786291C12329D004C3938 /* LogInViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LogInViewController.m; sourceTree = "<group>"; };
+		B597862B1C1234EB004C3938 /* SignUpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignUpViewController.h; sourceTree = "<group>"; };
+		B597862C1C1234EB004C3938 /* SignUpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignUpViewController.m; sourceTree = "<group>"; };
+		B597862F1C124DF9004C3938 /* NSString+Validation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Validation.h"; sourceTree = "<group>"; };
+		B59786301C124DF9004C3938 /* NSString+Validation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Validation.m"; sourceTree = "<group>"; };
 		F88532FE4A592F8896A1F079 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -128,16 +137,12 @@
 		B56CAB831C122A460023A9AA /* Gajbi */ = {
 			isa = PBXGroup;
 			children = (
+				B597862E1C124D67004C3938 /* Utilities */,
+				B59786271C1231BD004C3938 /* Resources */,
+				B59786261C1231AA004C3938 /* Storyboards */,
+				B59786251C123198004C3938 /* ViewControllers */,
 				B56CAB871C122A460023A9AA /* AppDelegate.h */,
 				B56CAB881C122A460023A9AA /* AppDelegate.m */,
-				B56CAB8A1C122A460023A9AA /* FirstViewController.h */,
-				B56CAB8B1C122A460023A9AA /* FirstViewController.m */,
-				B56CAB8D1C122A460023A9AA /* SecondViewController.h */,
-				B56CAB8E1C122A460023A9AA /* SecondViewController.m */,
-				B56CAB901C122A460023A9AA /* Main.storyboard */,
-				B56CAB931C122A460023A9AA /* Assets.xcassets */,
-				B56CAB951C122A460023A9AA /* LaunchScreen.storyboard */,
-				B56CAB981C122A460023A9AA /* Info.plist */,
 				B56CAB841C122A460023A9AA /* Supporting Files */,
 			);
 			path = Gajbi;
@@ -146,6 +151,7 @@
 		B56CAB841C122A460023A9AA /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				B56CAB981C122A460023A9AA /* Info.plist */,
 				B56CAB851C122A460023A9AA /* main.m */,
 			);
 			name = "Supporting Files";
@@ -167,6 +173,47 @@
 				B56CABAE1C122A470023A9AA /* Info.plist */,
 			);
 			path = GajbiUITests;
+			sourceTree = "<group>";
+		};
+		B59786251C123198004C3938 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				B56CAB8A1C122A460023A9AA /* FirstViewController.h */,
+				B56CAB8B1C122A460023A9AA /* FirstViewController.m */,
+				B56CAB8D1C122A460023A9AA /* SecondViewController.h */,
+				B56CAB8E1C122A460023A9AA /* SecondViewController.m */,
+				B59786281C12329D004C3938 /* LogInViewController.h */,
+				B59786291C12329D004C3938 /* LogInViewController.m */,
+				B597862B1C1234EB004C3938 /* SignUpViewController.h */,
+				B597862C1C1234EB004C3938 /* SignUpViewController.m */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		B59786261C1231AA004C3938 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				B56CAB901C122A460023A9AA /* Main.storyboard */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		B59786271C1231BD004C3938 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B56CAB931C122A460023A9AA /* Assets.xcassets */,
+				B56CAB951C122A460023A9AA /* LaunchScreen.storyboard */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		B597862E1C124D67004C3938 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				B597862F1C124DF9004C3938 /* NSString+Validation.h */,
+				B59786301C124DF9004C3938 /* NSString+Validation.m */,
+			);
+			name = Utilities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -352,6 +399,9 @@
 			files = (
 				B56CAB8F1C122A460023A9AA /* SecondViewController.m in Sources */,
 				B56CAB891C122A460023A9AA /* AppDelegate.m in Sources */,
+				B59786311C124DF9004C3938 /* NSString+Validation.m in Sources */,
+				B597862D1C1234EB004C3938 /* SignUpViewController.m in Sources */,
+				B597862A1C12329D004C3938 /* LogInViewController.m in Sources */,
 				B56CAB8C1C122A460023A9AA /* FirstViewController.m in Sources */,
 				B56CAB861C122A460023A9AA /* main.m in Sources */,
 			);
@@ -496,7 +546,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Gajbi/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.kachulach.Gajbi;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -509,7 +559,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Gajbi/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.kachulach.Gajbi;
 				PRODUCT_NAME = "$(TARGET_NAME)";
