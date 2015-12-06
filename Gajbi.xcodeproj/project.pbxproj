@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		55BE633E0EB1CE5B41EEB75E /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 53A595C238038F118FCCAC1F /* libPods.a */; };
+		B5425C531C14935500D4DAF0 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5425C521C14935500D4DAF0 /* SystemConfiguration.framework */; };
+		B5425C561C14938F00D4DAF0 /* Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = B5425C551C14938F00D4DAF0 /* Utility.m */; };
+		B5425C591C14945A00D4DAF0 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = B5425C581C14945A00D4DAF0 /* Reachability.m */; };
 		B56CAB861C122A460023A9AA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B56CAB851C122A460023A9AA /* main.m */; };
 		B56CAB891C122A460023A9AA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B56CAB881C122A460023A9AA /* AppDelegate.m */; };
 		B56CAB8C1C122A460023A9AA /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B56CAB8B1C122A460023A9AA /* FirstViewController.m */; };
@@ -42,6 +45,12 @@
 /* Begin PBXFileReference section */
 		33764A51FACB5C6BC4172A94 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		53A595C238038F118FCCAC1F /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5425C521C14935500D4DAF0 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		B5425C541C14938F00D4DAF0 /* Utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utility.h; sourceTree = "<group>"; };
+		B5425C551C14938F00D4DAF0 /* Utility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utility.m; sourceTree = "<group>"; };
+		B5425C571C14945A00D4DAF0 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		B5425C581C14945A00D4DAF0 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		B5425C5A1C149DA700D4DAF0 /* libFirebase.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libFirebase.a; path = "Pods/../build/Debug-iphoneos/libFirebase.a"; sourceTree = "<group>"; };
 		B56CAB811C122A460023A9AA /* Gajbi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gajbi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B56CAB851C122A460023A9AA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B56CAB871C122A460023A9AA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -74,6 +83,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5425C531C14935500D4DAF0 /* SystemConfiguration.framework in Frameworks */,
 				55BE633E0EB1CE5B41EEB75E /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -107,6 +117,10 @@
 		678035D6C5C0EF1A170980AE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				B5425C5A1C149DA700D4DAF0 /* libFirebase.a */,
+				B5425C571C14945A00D4DAF0 /* Reachability.h */,
+				B5425C581C14945A00D4DAF0 /* Reachability.m */,
+				B5425C521C14935500D4DAF0 /* SystemConfiguration.framework */,
 				53A595C238038F118FCCAC1F /* libPods.a */,
 			);
 			name = Frameworks;
@@ -212,6 +226,8 @@
 			children = (
 				B597862F1C124DF9004C3938 /* NSString+Validation.h */,
 				B59786301C124DF9004C3938 /* NSString+Validation.m */,
+				B5425C541C14938F00D4DAF0 /* Utility.h */,
+				B5425C551C14938F00D4DAF0 /* Utility.m */,
 			);
 			name = Utilities;
 			sourceTree = "<group>";
@@ -397,12 +413,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5425C561C14938F00D4DAF0 /* Utility.m in Sources */,
 				B56CAB8F1C122A460023A9AA /* SecondViewController.m in Sources */,
 				B56CAB891C122A460023A9AA /* AppDelegate.m in Sources */,
 				B59786311C124DF9004C3938 /* NSString+Validation.m in Sources */,
 				B597862D1C1234EB004C3938 /* SignUpViewController.m in Sources */,
 				B597862A1C12329D004C3938 /* LogInViewController.m in Sources */,
 				B56CAB8C1C122A460023A9AA /* FirstViewController.m in Sources */,
+				B5425C591C14945A00D4DAF0 /* Reachability.m in Sources */,
 				B56CAB861C122A460023A9AA /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -548,6 +566,10 @@
 				INFOPLIST_FILE = Gajbi/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.kachulach.Gajbi;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -561,6 +583,10 @@
 				INFOPLIST_FILE = Gajbi/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.kachulach.Gajbi;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};

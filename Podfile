@@ -16,3 +16,4 @@ target 'GajbiUITests' do
 end
 
 pod 'Firebase', '>= 2.4.3'
+pod 'AFNetworking', '~> 2.5'

@@ -8,6 +8,8 @@
 
 #import "LogInViewController.h"
 #import "NSString+Validation.h"
+#import "Utility.h"
+#import <Firebase/Firebase.h>
 
 @interface LogInViewController (){
     BOOL _emailIsValid;
@@ -91,9 +93,17 @@
     }
 }
 
+static NSString* showDashboardSegueID = @"ShowDashboardSegue";
 - (IBAction)logIn:(id)sender {
     if([self validateInput]){
-        //login
+        Firebase *firebase = [Utility getSharedFirebase];
+        [firebase authUser:self.emailTextField.text password:self.passwordTextField.text withCompletionBlock:^(NSError *error, FAuthData *authData) {
+            if(error){
+                NSLog(@"%@", error.localizedDescription);
+            } else {
+                [self performSegueWithIdentifier:showDashboardSegueID sender:nil];
+            }
+        }];
     } else {
         for(NSNumber *errorType in self.inputErrors){
             NSInteger errorInt = errorType.integerValue;
