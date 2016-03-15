@@ -9,11 +9,36 @@
 #import <Foundation/Foundation.h>
 #import "Reachability.h"
 
+@class UIAlertController;
 @class Firebase;
+@class UIViewController;
 
 @interface Utility : NSObject
 
-+(void)invokeControlledInternetConnectionAction:(void(^)())successHandler errorHandler:(void(^)(NSError *error))errorHandler;
+typedef NS_ENUM(NSInteger, InputValidationError) {
+    NameValidationError,
+    SurnameValidationError,
+    PasswordValidationError,
+    EmailValidationError,
+    DifferentPasswordsValidationError,
+    BirthdayValidationError,
+    WrongOldPasswordError,
+    InvalidPlaceError,
+    InvalidPriceError,
+    InvalidToPriceError,
+    InvalidFromPriceError,
+    InvalidAreaError,
+    InvalidFromAreaError,
+    InvalidToAreaError,
+    InvalidFloorError
+};
 
-+ (Firebase *)getSharedFirebase;
++ (void)invokeInternetConnectionAction:(void(^)())successHandler;
+
++ (UIAlertController *)getAlertWithTitle:(NSString *)title message:(NSString *)message cancelTitle:(NSString *)cancelTitle cancelCompletion:(void(^)())cancelCompletion okTitle:(NSString *)okTitle okCompletion:(void(^)())okCompletion destructiveTitle:(NSString *)destructiveTitle destructiveCompletion:(void(^)())destructiveCompletion;
+
++ (NSDateFormatter *)getDateFormatter;
+
++ (void)showAlertWithErrors:(NSArray *)errors onParent:(UIViewController *)parent;
+
 @end

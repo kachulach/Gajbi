@@ -8,21 +8,39 @@
 
 /* Begin PBXBuildFile section */
 		55BE633E0EB1CE5B41EEB75E /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 53A595C238038F118FCCAC1F /* libPods.a */; };
+		B50B94EC1C34763500137B6B /* ProfileSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B50B94EB1C34763500137B6B /* ProfileSettingsViewController.m */; };
+		B510FD3F1C4FD41C00730673 /* CribService.m in Sources */ = {isa = PBXBuildFile; fileRef = B510FD3E1C4FD41C00730673 /* CribService.m */; };
+		B518748B1C26F865000262E4 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B518748A1C26F865000262E4 /* HomeViewController.m */; };
 		B5425C531C14935500D4DAF0 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5425C521C14935500D4DAF0 /* SystemConfiguration.framework */; };
 		B5425C561C14938F00D4DAF0 /* Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = B5425C551C14938F00D4DAF0 /* Utility.m */; };
 		B5425C591C14945A00D4DAF0 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = B5425C581C14945A00D4DAF0 /* Reachability.m */; };
+		B54B5DFF1C557F45000ADC8A /* NSDictionary+DeepCopy.m in Sources */ = {isa = PBXBuildFile; fileRef = B54B5DFE1C557F45000ADC8A /* NSDictionary+DeepCopy.m */; };
+		B55FD2B21C3C286A00C07F70 /* GlobalUser.m in Sources */ = {isa = PBXBuildFile; fileRef = B55FD2B11C3C286A00C07F70 /* GlobalUser.m */; };
+		B55FD2B91C3C4ACA00C07F70 /* BorderTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = B55FD2B81C3C4ACA00C07F70 /* BorderTextView.m */; };
 		B56CAB861C122A460023A9AA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B56CAB851C122A460023A9AA /* main.m */; };
 		B56CAB891C122A460023A9AA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B56CAB881C122A460023A9AA /* AppDelegate.m */; };
-		B56CAB8C1C122A460023A9AA /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B56CAB8B1C122A460023A9AA /* FirstViewController.m */; };
-		B56CAB8F1C122A460023A9AA /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B56CAB8E1C122A460023A9AA /* SecondViewController.m */; };
 		B56CAB921C122A460023A9AA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B56CAB901C122A460023A9AA /* Main.storyboard */; };
 		B56CAB941C122A460023A9AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B56CAB931C122A460023A9AA /* Assets.xcassets */; };
 		B56CAB971C122A460023A9AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B56CAB951C122A460023A9AA /* LaunchScreen.storyboard */; };
 		B56CABA21C122A470023A9AA /* GajbiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B56CABA11C122A470023A9AA /* GajbiTests.m */; };
 		B56CABAD1C122A470023A9AA /* GajbiUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B56CABAC1C122A470023A9AA /* GajbiUITests.m */; };
+		B57494A51C4BB9D30030BCDD /* CribLocationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B57494A41C4BB9D30030BCDD /* CribLocationViewController.m */; };
+		B57494A81C4BBC210030BCDD /* Crib.m in Sources */ = {isa = PBXBuildFile; fileRef = B57494A71C4BBC210030BCDD /* Crib.m */; };
+		B57494AB1C4BD2CB0030BCDD /* CribRoomiesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B57494AA1C4BD2CB0030BCDD /* CribRoomiesViewController.m */; };
+		B57494B11C4BD3060030BCDD /* CribDoneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B57494B01C4BD3060030BCDD /* CribDoneViewController.m */; };
+		B5920D131C5965DD00EB41E2 /* PublisherProfileTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5920D121C5965DD00EB41E2 /* PublisherProfileTableViewController.m */; };
 		B597862A1C12329D004C3938 /* LogInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B59786291C12329D004C3938 /* LogInViewController.m */; };
 		B597862D1C1234EB004C3938 /* SignUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B597862C1C1234EB004C3938 /* SignUpViewController.m */; };
 		B59786311C124DF9004C3938 /* NSString+Validation.m in Sources */ = {isa = PBXBuildFile; fileRef = B59786301C124DF9004C3938 /* NSString+Validation.m */; };
+		B59F5E061C2897A100889597 /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B59F5E051C2897A100889597 /* ProfileViewController.m */; };
+		B5B12B221C5ABD650087DC47 /* CribDetailsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5B12B211C5ABD650087DC47 /* CribDetailsTableViewController.m */; };
+		B5C2CDB41C1727E600372BD4 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = B5C2CDB31C1727E600372BD4 /* User.m */; };
+		B5C2CDBC1C176ED800372BD4 /* UserService.m in Sources */ = {isa = PBXBuildFile; fileRef = B5C2CDBB1C176ED800372BD4 /* UserService.m */; };
+		B5C341A31C54F5B10040754C /* CribCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B5C341A21C54F5B10040754C /* CribCell.m */; };
+		B5E9AACA1C4C39A300896EBA /* NewPostViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5E9AAC91C4C39A300896EBA /* NewPostViewController.m */; };
+		B5F1EBB91C5806070037565F /* image.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5F1EBB81C5806070037565F /* image.xcassets */; };
+		B5F1EBBC1C5815120037565F /* CribExtraDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5F1EBBB1C5815120037565F /* CribExtraDetailsViewController.m */; };
+		B5FE4B931C18CC1F00E482AE /* ServiceUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = B5FE4B921C18CC1F00E482AE /* ServiceUtility.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,20 +63,29 @@
 /* Begin PBXFileReference section */
 		33764A51FACB5C6BC4172A94 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		53A595C238038F118FCCAC1F /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		B503180F1C3DD0110025D6CB /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		B50B94EA1C34763500137B6B /* ProfileSettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileSettingsViewController.h; sourceTree = "<group>"; };
+		B50B94EB1C34763500137B6B /* ProfileSettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileSettingsViewController.m; sourceTree = "<group>"; };
+		B510FD3D1C4FD41C00730673 /* CribService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CribService.h; sourceTree = "<group>"; };
+		B510FD3E1C4FD41C00730673 /* CribService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CribService.m; sourceTree = "<group>"; };
+		B51874891C26F865000262E4 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		B518748A1C26F865000262E4 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
 		B5425C521C14935500D4DAF0 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		B5425C541C14938F00D4DAF0 /* Utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utility.h; sourceTree = "<group>"; };
 		B5425C551C14938F00D4DAF0 /* Utility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utility.m; sourceTree = "<group>"; };
 		B5425C571C14945A00D4DAF0 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
 		B5425C581C14945A00D4DAF0 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
 		B5425C5A1C149DA700D4DAF0 /* libFirebase.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libFirebase.a; path = "Pods/../build/Debug-iphoneos/libFirebase.a"; sourceTree = "<group>"; };
+		B54B5DFD1C557F45000ADC8A /* NSDictionary+DeepCopy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+DeepCopy.h"; sourceTree = "<group>"; };
+		B54B5DFE1C557F45000ADC8A /* NSDictionary+DeepCopy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+DeepCopy.m"; sourceTree = "<group>"; };
+		B55FD2B01C3C286A00C07F70 /* GlobalUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GlobalUser.h; sourceTree = "<group>"; };
+		B55FD2B11C3C286A00C07F70 /* GlobalUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GlobalUser.m; sourceTree = "<group>"; };
+		B55FD2B71C3C4ACA00C07F70 /* BorderTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BorderTextView.h; sourceTree = "<group>"; };
+		B55FD2B81C3C4ACA00C07F70 /* BorderTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BorderTextView.m; sourceTree = "<group>"; };
 		B56CAB811C122A460023A9AA /* Gajbi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gajbi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B56CAB851C122A460023A9AA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B56CAB871C122A460023A9AA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B56CAB881C122A460023A9AA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		B56CAB8A1C122A460023A9AA /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
-		B56CAB8B1C122A460023A9AA /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
-		B56CAB8D1C122A460023A9AA /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
-		B56CAB8E1C122A460023A9AA /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		B56CAB911C122A460023A9AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B56CAB931C122A460023A9AA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B56CAB961C122A460023A9AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -69,12 +96,39 @@
 		B56CABA81C122A470023A9AA /* GajbiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GajbiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B56CABAC1C122A470023A9AA /* GajbiUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GajbiUITests.m; sourceTree = "<group>"; };
 		B56CABAE1C122A470023A9AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B57494A31C4BB9D30030BCDD /* CribLocationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CribLocationViewController.h; sourceTree = "<group>"; };
+		B57494A41C4BB9D30030BCDD /* CribLocationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CribLocationViewController.m; sourceTree = "<group>"; };
+		B57494A61C4BBC210030BCDD /* Crib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Crib.h; sourceTree = "<group>"; };
+		B57494A71C4BBC210030BCDD /* Crib.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Crib.m; sourceTree = "<group>"; };
+		B57494A91C4BD2CB0030BCDD /* CribRoomiesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CribRoomiesViewController.h; sourceTree = "<group>"; };
+		B57494AA1C4BD2CB0030BCDD /* CribRoomiesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CribRoomiesViewController.m; sourceTree = "<group>"; };
+		B57494AF1C4BD3060030BCDD /* CribDoneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CribDoneViewController.h; sourceTree = "<group>"; };
+		B57494B01C4BD3060030BCDD /* CribDoneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CribDoneViewController.m; sourceTree = "<group>"; };
+		B5920D111C5965DD00EB41E2 /* PublisherProfileTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PublisherProfileTableViewController.h; sourceTree = "<group>"; };
+		B5920D121C5965DD00EB41E2 /* PublisherProfileTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PublisherProfileTableViewController.m; sourceTree = "<group>"; };
 		B59786281C12329D004C3938 /* LogInViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LogInViewController.h; sourceTree = "<group>"; };
 		B59786291C12329D004C3938 /* LogInViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LogInViewController.m; sourceTree = "<group>"; };
 		B597862B1C1234EB004C3938 /* SignUpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignUpViewController.h; sourceTree = "<group>"; };
 		B597862C1C1234EB004C3938 /* SignUpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignUpViewController.m; sourceTree = "<group>"; };
 		B597862F1C124DF9004C3938 /* NSString+Validation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Validation.h"; sourceTree = "<group>"; };
 		B59786301C124DF9004C3938 /* NSString+Validation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Validation.m"; sourceTree = "<group>"; };
+		B59F5E041C2897A100889597 /* ProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileViewController.h; sourceTree = "<group>"; };
+		B59F5E051C2897A100889597 /* ProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileViewController.m; sourceTree = "<group>"; };
+		B5B12B201C5ABD650087DC47 /* CribDetailsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CribDetailsTableViewController.h; sourceTree = "<group>"; };
+		B5B12B211C5ABD650087DC47 /* CribDetailsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CribDetailsTableViewController.m; sourceTree = "<group>"; };
+		B5C2CDB21C1727E600372BD4 /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		B5C2CDB31C1727E600372BD4 /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+		B5C2CDBA1C176ED800372BD4 /* UserService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserService.h; sourceTree = "<group>"; };
+		B5C2CDBB1C176ED800372BD4 /* UserService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserService.m; sourceTree = "<group>"; };
+		B5C341A11C54F5B10040754C /* CribCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CribCell.h; sourceTree = "<group>"; };
+		B5C341A21C54F5B10040754C /* CribCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CribCell.m; sourceTree = "<group>"; };
+		B5E9AAC81C4C39A300896EBA /* NewPostViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewPostViewController.h; sourceTree = "<group>"; };
+		B5E9AAC91C4C39A300896EBA /* NewPostViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewPostViewController.m; sourceTree = "<group>"; };
+		B5F1EBB81C5806070037565F /* image.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = image.xcassets; sourceTree = "<group>"; };
+		B5F1EBBA1C5815120037565F /* CribExtraDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CribExtraDetailsViewController.h; sourceTree = "<group>"; };
+		B5F1EBBB1C5815120037565F /* CribExtraDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CribExtraDetailsViewController.m; sourceTree = "<group>"; };
+		B5FE4B911C18CC1F00E482AE /* ServiceUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServiceUtility.h; sourceTree = "<group>"; };
+		B5FE4B921C18CC1F00E482AE /* ServiceUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServiceUtility.m; sourceTree = "<group>"; };
 		F88532FE4A592F8896A1F079 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -126,6 +180,17 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		B55FD2B61C3C4AC100C07F70 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B55FD2B71C3C4ACA00C07F70 /* BorderTextView.h */,
+				B55FD2B81C3C4ACA00C07F70 /* BorderTextView.m */,
+				B5C341A11C54F5B10040754C /* CribCell.h */,
+				B5C341A21C54F5B10040754C /* CribCell.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
 		B56CAB781C122A460023A9AA = {
 			isa = PBXGroup;
 			children = (
@@ -151,6 +216,9 @@
 		B56CAB831C122A460023A9AA /* Gajbi */ = {
 			isa = PBXGroup;
 			children = (
+				B55FD2B61C3C4AC100C07F70 /* Views */,
+				B5C2CDB51C172A8200372BD4 /* Services */,
+				B5C2CDB11C1727D300372BD4 /* Models */,
 				B597862E1C124D67004C3938 /* Utilities */,
 				B59786271C1231BD004C3938 /* Resources */,
 				B59786261C1231AA004C3938 /* Storyboards */,
@@ -158,6 +226,7 @@
 				B56CAB871C122A460023A9AA /* AppDelegate.h */,
 				B56CAB881C122A460023A9AA /* AppDelegate.m */,
 				B56CAB841C122A460023A9AA /* Supporting Files */,
+				B5F1EBB81C5806070037565F /* image.xcassets */,
 			);
 			path = Gajbi;
 			sourceTree = "<group>";
@@ -192,14 +261,30 @@
 		B59786251C123198004C3938 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				B56CAB8A1C122A460023A9AA /* FirstViewController.h */,
-				B56CAB8B1C122A460023A9AA /* FirstViewController.m */,
-				B56CAB8D1C122A460023A9AA /* SecondViewController.h */,
-				B56CAB8E1C122A460023A9AA /* SecondViewController.m */,
 				B59786281C12329D004C3938 /* LogInViewController.h */,
 				B59786291C12329D004C3938 /* LogInViewController.m */,
 				B597862B1C1234EB004C3938 /* SignUpViewController.h */,
 				B597862C1C1234EB004C3938 /* SignUpViewController.m */,
+				B51874891C26F865000262E4 /* HomeViewController.h */,
+				B518748A1C26F865000262E4 /* HomeViewController.m */,
+				B5F1EBBA1C5815120037565F /* CribExtraDetailsViewController.h */,
+				B5F1EBBB1C5815120037565F /* CribExtraDetailsViewController.m */,
+				B5920D111C5965DD00EB41E2 /* PublisherProfileTableViewController.h */,
+				B5920D121C5965DD00EB41E2 /* PublisherProfileTableViewController.m */,
+				B59F5E041C2897A100889597 /* ProfileViewController.h */,
+				B59F5E051C2897A100889597 /* ProfileViewController.m */,
+				B50B94EA1C34763500137B6B /* ProfileSettingsViewController.h */,
+				B50B94EB1C34763500137B6B /* ProfileSettingsViewController.m */,
+				B5E9AAC81C4C39A300896EBA /* NewPostViewController.h */,
+				B5E9AAC91C4C39A300896EBA /* NewPostViewController.m */,
+				B57494A31C4BB9D30030BCDD /* CribLocationViewController.h */,
+				B57494A41C4BB9D30030BCDD /* CribLocationViewController.m */,
+				B57494A91C4BD2CB0030BCDD /* CribRoomiesViewController.h */,
+				B57494AA1C4BD2CB0030BCDD /* CribRoomiesViewController.m */,
+				B5B12B201C5ABD650087DC47 /* CribDetailsTableViewController.h */,
+				B5B12B211C5ABD650087DC47 /* CribDetailsTableViewController.m */,
+				B57494AF1C4BD3060030BCDD /* CribDoneViewController.h */,
+				B57494B01C4BD3060030BCDD /* CribDoneViewController.m */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -226,10 +311,39 @@
 			children = (
 				B597862F1C124DF9004C3938 /* NSString+Validation.h */,
 				B59786301C124DF9004C3938 /* NSString+Validation.m */,
+				B54B5DFD1C557F45000ADC8A /* NSDictionary+DeepCopy.h */,
+				B54B5DFE1C557F45000ADC8A /* NSDictionary+DeepCopy.m */,
 				B5425C541C14938F00D4DAF0 /* Utility.h */,
 				B5425C551C14938F00D4DAF0 /* Utility.m */,
+				B55FD2B01C3C286A00C07F70 /* GlobalUser.h */,
+				B55FD2B11C3C286A00C07F70 /* GlobalUser.m */,
+				B503180F1C3DD0110025D6CB /* Constants.h */,
 			);
 			name = Utilities;
+			sourceTree = "<group>";
+		};
+		B5C2CDB11C1727D300372BD4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B5C2CDB21C1727E600372BD4 /* User.h */,
+				B5C2CDB31C1727E600372BD4 /* User.m */,
+				B57494A61C4BBC210030BCDD /* Crib.h */,
+				B57494A71C4BBC210030BCDD /* Crib.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		B5C2CDB51C172A8200372BD4 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				B5C2CDBA1C176ED800372BD4 /* UserService.h */,
+				B5C2CDBB1C176ED800372BD4 /* UserService.m */,
+				B510FD3D1C4FD41C00730673 /* CribService.h */,
+				B510FD3E1C4FD41C00730673 /* CribService.m */,
+				B5FE4B911C18CC1F00E482AE /* ServiceUtility.h */,
+				B5FE4B921C18CC1F00E482AE /* ServiceUtility.m */,
+			);
+			name = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -339,6 +453,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B56CAB971C122A460023A9AA /* LaunchScreen.storyboard in Resources */,
+				B5F1EBB91C5806070037565F /* image.xcassets in Resources */,
 				B56CAB941C122A460023A9AA /* Assets.xcassets in Resources */,
 				B56CAB921C122A460023A9AA /* Main.storyboard in Resources */,
 			);
@@ -413,15 +528,32 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5E9AACA1C4C39A300896EBA /* NewPostViewController.m in Sources */,
+				B5C341A31C54F5B10040754C /* CribCell.m in Sources */,
+				B5C2CDB41C1727E600372BD4 /* User.m in Sources */,
 				B5425C561C14938F00D4DAF0 /* Utility.m in Sources */,
-				B56CAB8F1C122A460023A9AA /* SecondViewController.m in Sources */,
+				B50B94EC1C34763500137B6B /* ProfileSettingsViewController.m in Sources */,
+				B55FD2B91C3C4ACA00C07F70 /* BorderTextView.m in Sources */,
+				B57494A81C4BBC210030BCDD /* Crib.m in Sources */,
+				B57494B11C4BD3060030BCDD /* CribDoneViewController.m in Sources */,
+				B57494A51C4BB9D30030BCDD /* CribLocationViewController.m in Sources */,
+				B5B12B221C5ABD650087DC47 /* CribDetailsTableViewController.m in Sources */,
 				B56CAB891C122A460023A9AA /* AppDelegate.m in Sources */,
+				B55FD2B21C3C286A00C07F70 /* GlobalUser.m in Sources */,
 				B59786311C124DF9004C3938 /* NSString+Validation.m in Sources */,
 				B597862D1C1234EB004C3938 /* SignUpViewController.m in Sources */,
+				B57494AB1C4BD2CB0030BCDD /* CribRoomiesViewController.m in Sources */,
 				B597862A1C12329D004C3938 /* LogInViewController.m in Sources */,
-				B56CAB8C1C122A460023A9AA /* FirstViewController.m in Sources */,
+				B518748B1C26F865000262E4 /* HomeViewController.m in Sources */,
+				B54B5DFF1C557F45000ADC8A /* NSDictionary+DeepCopy.m in Sources */,
+				B5FE4B931C18CC1F00E482AE /* ServiceUtility.m in Sources */,
 				B5425C591C14945A00D4DAF0 /* Reachability.m in Sources */,
+				B5C2CDBC1C176ED800372BD4 /* UserService.m in Sources */,
+				B5920D131C5965DD00EB41E2 /* PublisherProfileTableViewController.m in Sources */,
+				B59F5E061C2897A100889597 /* ProfileViewController.m in Sources */,
 				B56CAB861C122A460023A9AA /* main.m in Sources */,
+				B510FD3F1C4FD41C00730673 /* CribService.m in Sources */,
+				B5F1EBBC1C5815120037565F /* CribExtraDetailsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

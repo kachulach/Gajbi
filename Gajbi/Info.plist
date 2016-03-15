@@ -53,7 +53,7 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
-	<key>FirebaseURL</key>
-	<string>gajbi.firebaseIO.com</string>
+	<key>FirebaseRootRef</key>
+	<string>https://cribs.firebaseio.com/</string>
 </dict>
 </plist>

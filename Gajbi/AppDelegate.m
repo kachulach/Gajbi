@@ -7,6 +7,11 @@
 //
 
 #import "AppDelegate.h"
+#import <Firebase/Firebase.h>
+#import "HomeViewController.h"
+#import "GlobalUser.h"
+#import "UserService.h"
+#import "Utility.h"
 
 @interface AppDelegate ()
 
@@ -14,9 +19,9 @@
 
 @implementation AppDelegate
 
-
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    [Firebase defaultConfig].persistenceEnabled = YES;
+    
     return YES;
 }
 

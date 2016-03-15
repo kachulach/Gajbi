@@ -10,13 +10,5 @@
 
 @interface SignUpViewController : UIViewController
 
-typedef NS_ENUM(NSInteger, InputValidationError) {
-    NameValidationError,
-    SurnameValidationError,
-    PasswordValidationError,
-    EmailValidationError,
-    DifferentPasswordsError
-};
-
 @end
 

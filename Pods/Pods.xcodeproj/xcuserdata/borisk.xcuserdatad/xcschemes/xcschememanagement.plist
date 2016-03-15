@@ -9,6 +9,16 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>DownPicker-DownPicker.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>DownPicker.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Firebase.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -37,7 +47,12 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>2B0301C56544CB853A96916AF85FC339</key>
+		<key>0D72BAF82E2B4A1A81DF92C58D905799</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>23A7754C7A78B0ED1C853057F3A1B751</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -47,22 +62,27 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>4862B57E163B555EE62C5F46837624FC</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
 		<key>569735B422E0E4CEEFC5C6955AFDE3A5</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>DF307FD3C8F0418B5E2E71243D8E5F11</key>
+		<key>5C05FADE30EF910B83CBF24CED9FD2F6</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>E56B423EBE02D18D2CD6BA9BDCDA78E3</key>
+		<key>926A84365F6B93264AF882DA49B7E685</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A10417D3E05B5D78A8FDC6F0CD51A6FA</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>EAB26C2E886E2B4AA0E60EFACB2856E3</key>
 		<dict>
 			<key>primary</key>
 			<true/>

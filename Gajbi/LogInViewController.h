@@ -10,9 +10,4 @@
 
 @interface LogInViewController : UIViewController
 
-typedef NS_ENUM(NSInteger, InputValidationError) {
-    PasswordValidationError,
-    EmailValidationError
-};
-
 @end
