@@ -14,7 +14,7 @@ end
 target 'GajbiUITests' do
 
 end
-
+soucr
 pod 'Firebase', '>= 2.5.0'
 pod 'AFNetworking', '~> 2.5'
-pod "DownPicker"
+pod 'DownPicker'
