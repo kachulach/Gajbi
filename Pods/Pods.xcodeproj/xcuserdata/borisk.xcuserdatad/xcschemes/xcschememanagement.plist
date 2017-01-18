@@ -27,7 +27,7 @@
 		<key>Pods-Gajbi.xcscheme</key>
 		<dict>
 			<key>isShown</key>
-			<false/>
+			<true/>
 		</dict>
 		<key>Pods-GajbiTests.xcscheme</key>
 		<dict>
